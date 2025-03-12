@@ -8,15 +8,7 @@ import ast
 class Venver():
 	import_to_pip_map = {
 		'PIL': 'Pillow',
-		'dateutil': 'python-dateutil',
-		'flask_sqlalchemy': 'Flask-SQLAlchemy',
-		'mysql.connector': 'PyMySQL',
 		'sklearn': 'scikit-learn',
-		'numpy': 'numpy',  # numpyはインポート名とpipインストール名が同じ
-		'pandas': 'pandas',  # pandasも同様
-		'matplotlib': 'matplotlib',
-		'requests': 'requests',
-		'pytest': 'pytest',
 		'cp2': 'opencv-python',  # cp2のインポートに対応するpipパッケージ名
 		# 他にも必要なマッピングを追加
 	}
