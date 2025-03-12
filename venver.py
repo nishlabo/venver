@@ -55,7 +55,7 @@ class Venver():
 					missinglibs.append(self.import_to_pip_map[l])
 				else:
 					missinglibs.append(l)	
-
+		# TODO: requirements.txt をソースファイルと同じ場所に作成しておく
 		return missinglibs
 
 
