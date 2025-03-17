@@ -9,7 +9,7 @@ class Venver():
 	import_to_pip_map = {
 		'PIL': 'Pillow',
 		'sklearn': 'scikit-learn',
-		'cp2': 'opencv-python',  # cp2のインポートに対応するpipパッケージ名
+		'cv2': 'opencv-python',
 		'pptx':'python-pptx',
 		# 他にも必要なマッピングを追加
 	}
