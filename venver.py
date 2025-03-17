@@ -10,6 +10,7 @@ class Venver():
 		'PIL': 'Pillow',
 		'sklearn': 'scikit-learn',
 		'cp2': 'opencv-python',  # cp2のインポートに対応するpipパッケージ名
+		'pptx':'python-pptx',
 		# 他にも必要なマッピングを追加
 	}
 	def __init__(self, sourceFiles, modules=None, projectname=None):
