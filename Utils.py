@@ -19,9 +19,9 @@ def premain2(defaults, required):
     parser = argparse.ArgumentParser()
     for k, v in defaults.items():
         if k in required:
-            parser.add_argument(f"--{k}", required=True, nargs='*' if isinstance(v, list) else None)
+            parser.add_argument(f"--{k}", required=True, nargs=None if isinstance(v, str) else '*')
         else:
-            parser.add_argument(f"--{k}", default=v, nargs='*' if isinstance(v, list) else None)
+            parser.add_argument(f"--{k}", default=v, nargs=None if isinstance(v, str) else '*')
     
     args = parser.parse_args()
     
